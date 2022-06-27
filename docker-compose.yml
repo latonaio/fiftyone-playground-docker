@@ -1,0 +1,11 @@
+version: "3"
+services:
+  fiftyone-playground:
+    container_name: fiftyone-playground
+    hostname: fiftyone-playground
+    build:
+      context: .
+    ports:
+      - "32200-32299:32200-32299"
+    # volumes:
+    #   - なんかいい感じにお願いします
